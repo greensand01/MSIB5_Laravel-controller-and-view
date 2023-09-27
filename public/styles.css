@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    background-color: #c0c0c0; /* Warna latar belakang */
+    padding: 10px; /* Ruang di dalam top bar */
+    text-align: center; /* Mengatur teks ke tengah */
+    justify-content: center;
+    height: 70px;
+}
+.button {
+    text-decoration: none; /* Menghilangkan garis bawah dari tautan */
+    color: #fff; /* Warna teks */
+    background-color: #1083ff; /* Warna latar belakang tombol */
+    padding: 15px ; /* Ruang di dalam tombol */
+    margin: 0 10px; /* Ruang antara tombol */
+    border-radius: 10px; /* Lingkaran sudut tombol */
+    transition: background-color 0.3s; /* Efek transisi ketika disorot */
+}
+
+.button:hover {
+    background-color: #0a417c;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 80%; /* Lebar container */
+    max-width: 1200px; /* Lebar maksimum container */
+    margin: 0 auto; /* Pusatkan container di tengah */
+    padding: 20px; /* Ruang di dalam container */
+    background-color: #f0f0f0; /* Warna latar belakang container */
+    border: 1px solid #ccc; /* Garis tepi container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+
+table {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
